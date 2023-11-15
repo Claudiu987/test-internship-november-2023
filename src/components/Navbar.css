@@ -1,0 +1,45 @@
+header
+{
+    height:100px;
+    background-color: #347ab4;
+    color: #ffffff;
+    position: fixed;
+    width:100%;
+}
+
+
+
+img{
+   height: inherit;
+    }
+.logo-container{
+    margin: 0;
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+    height: 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+    margin-left: none;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    list-style: none;
+    margin-right: 20px;
+    align-items: center;
+}
+li{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+li:hover{
+    background-color: rgb(20, 27, 88);
+   
+}
